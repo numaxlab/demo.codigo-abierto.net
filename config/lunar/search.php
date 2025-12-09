@@ -26,7 +26,10 @@ return [
         /*
          * Below you can add your own models for indexing...
          */
-        // App\Models\Example::class,
+        NumaxLab\Lunar\Geslib\Models\Author::class,
+        Testa\Models\Education\Course::class,
+        Testa\Models\Media\Audio::class,
+        Testa\Models\Media\Video::class,
     ],
 
     /*
@@ -49,8 +52,9 @@ return [
         Lunar\Models\Collection::class => Lunar\Search\CollectionIndexer::class,
         Lunar\Models\Customer::class => Lunar\Search\CustomerIndexer::class,
         Lunar\Models\Order::class => Lunar\Search\OrderIndexer::class,
-        Lunar\Models\Product::class => Lunar\Search\ProductIndexer::class,
+        Lunar\Models\Product::class => NumaxLab\Lunar\Geslib\Search\ProductIndexer::class,
         Lunar\Models\ProductOption::class => Lunar\Search\ProductOptionIndexer::class,
+        NumaxLab\Lunar\Geslib\Models\Author::class => NumaxLab\Lunar\Geslib\Search\AuthorIndexer::class,
     ],
 
 ];
