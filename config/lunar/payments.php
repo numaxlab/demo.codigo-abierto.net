@@ -22,15 +22,15 @@ return [
             'authorized' => 'payment-offline',
         ],
         'card' => [
-            'driver' => 'redsys',
+            'driver' => 'offline',
             'authorized' => 'payment-received',
         ],
         'bizum' => [
-            'driver' => 'redsys',
+            'driver' => 'offline',
             'authorized' => 'payment-received',
         ],
         'paypal' => [
-            'driver' => 'paypal',
+            'driver' => 'offline',
             'authorized' => 'payment-received',
         ],
     ],
