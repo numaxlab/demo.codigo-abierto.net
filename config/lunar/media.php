@@ -1,6 +1,7 @@
 <?php
 
-use Lunar\Base\StandardMediaDefinitions;
+use NumaxLab\Lunar\Geslib\Media\ProductMediaDefinitions;
+use Testa\Media\StandardMediaDefinitions;
 
 return [
 
@@ -8,9 +9,12 @@ return [
         'asset' => StandardMediaDefinitions::class,
         'brand' => StandardMediaDefinitions::class,
         'collection' => StandardMediaDefinitions::class,
-        'product' => StandardMediaDefinitions::class,
+        'product' => ProductMediaDefinitions::class,
         'product-option' => StandardMediaDefinitions::class,
         'product-option-value' => StandardMediaDefinitions::class,
+        'author' => StandardMediaDefinitions::class,
+        'education-topic' => StandardMediaDefinitions::class,
+        'course' => StandardMediaDefinitions::class,
     ],
 
     'collection' => 'images',
