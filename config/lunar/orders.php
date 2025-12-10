@@ -115,6 +115,8 @@ return [
             Lunar\Pipelines\Order\Creation\CreateShippingLine::class,
             Lunar\Pipelines\Order\Creation\CleanUpOrderLines::class,
             Lunar\Pipelines\Order\Creation\MapDiscountBreakdown::class,
+            NumaxLab\Lunar\Geslib\Pipelines\Order\Creation\IdentifyGeslibOrder::class,
+            Testa\Pipelines\Order\Creation\TagOrder::class,
         ],
     ],
 
