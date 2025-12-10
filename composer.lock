@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bcc0658fb7eafc934aa514ee63290e43",
+    "content-hash": "a69d0aa90ca164329583036589658fd9",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -5726,6 +5726,55 @@
             "time": "2025-12-10T07:23:54+00:00"
         },
         {
+            "name": "numaxlab/lunar-redsys",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/numaxlab/lunar-redsys.git",
+                "reference": "c1e4865c4d1ca3e3f34a50ebdb1ad1d36273b217"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/numaxlab/lunar-redsys/zipball/c1e4865c4d1ca3e3f34a50ebdb1ad1d36273b217",
+                "reference": "c1e4865c4d1ca3e3f34a50ebdb1ad1d36273b217",
+                "shasum": ""
+            },
+            "require": {
+                "lunarphp/core": "^1.0",
+                "sermepa/sermepa": "^1.5"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "NumaxLab\\Lunar\\Redsys\\LunarRedsysServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "NumaxLab\\Lunar\\Redsys\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Adrián P. Blunier",
+                    "email": "adrian@numax.org"
+                }
+            ],
+            "description": "Lunar Redsys payment driver",
+            "support": {
+                "issues": "https://github.com/numaxlab/lunar-redsys/issues",
+                "source": "https://github.com/numaxlab/lunar-redsys/tree/main"
+            },
+            "time": "2025-11-14T10:23:22+00:00"
+        },
+        {
             "name": "numaxlab/testa",
             "version": "1.0.0-beta.4",
             "source": {
@@ -7426,6 +7475,60 @@
                 }
             ],
             "time": "2022-12-17T21:53:22+00:00"
+        },
+        {
+            "name": "sermepa/sermepa",
+            "version": "1.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ssheduardo/sermepa.git",
+                "reference": "6760ae9950cc142ae4591cc89949da10dac0e891"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ssheduardo/sermepa/zipball/6760ae9950cc142ae4591cc89949da10dac0e891",
+                "reference": "6760ae9950cc142ae4591cc89949da10dac0e891",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3|^7.2.5|^8.0|^8.1|^8.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.0|^8.5.8|^9.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Redsys\\": "src/Redsys/",
+                    "Sermepa\\Tpv\\": "src/Sermepa/Tpv/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eduardo D",
+                    "email": "ssh.eduardo@gmail.com",
+                    "homepage": "http://ubublog.com/"
+                }
+            ],
+            "description": "Pasarela de pago Redsys, Sermepa",
+            "homepage": "https://github.com/ssheduardo/sermepa",
+            "keywords": [
+                "lacaixa",
+                "pasarela",
+                "payment",
+                "redsys",
+                "sabadell",
+                "sermepa"
+            ],
+            "support": {
+                "issues": "https://github.com/ssheduardo/sermepa/issues",
+                "source": "https://github.com/ssheduardo/sermepa/tree/1.5.2"
+            },
+            "time": "2025-03-07T01:02:13+00:00"
         },
         {
             "name": "spatie/array-to-xml",
@@ -15612,6 +15715,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "numaxlab/lunar-redsys": 20,
         "numaxlab/testa": 10
     },
     "prefer-stable": true,

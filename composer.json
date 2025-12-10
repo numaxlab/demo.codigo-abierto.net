@@ -17,6 +17,7 @@
         "laravel/horizon": "^5.40",
         "laravel/pulse": "^1.4",
         "laravel/tinker": "^2.10.1",
+        "numaxlab/lunar-redsys": "dev-main",
         "numaxlab/testa": "^1.0@beta"
     },
     "require-dev": {
