@@ -9,4 +9,5 @@
 @source '../../vendor/numaxlab/atomic-laravel/resources/views/*.blade.php';
 @source '../../vendor/numaxlab/testa/resources/views/components/**/*.blade.php';
 @source '../../vendor/numaxlab/testa/resources/views/storefront/**/*.blade.php';
+@source '../../vendor/numaxlab/testa/resources/views/logos/**/*.blade.php';
 @source '../../vendor/numaxlab/testa/resources/views/vendor/numaxlab-atomic/**/*.blade.php';
