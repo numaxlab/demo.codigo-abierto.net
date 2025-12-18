@@ -5776,16 +5776,16 @@
         },
         {
             "name": "numaxlab/testa",
-            "version": "1.0.0-beta.7",
+            "version": "1.0.0-beta.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/numaxlab/testa.git",
-                "reference": "a3bf47876cb77b0efc23a4461b43c8003cb1bbf2"
+                "reference": "28bfb8270069189b13527ac9385b7c8774c650c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/numaxlab/testa/zipball/a3bf47876cb77b0efc23a4461b43c8003cb1bbf2",
-                "reference": "a3bf47876cb77b0efc23a4461b43c8003cb1bbf2",
+                "url": "https://api.github.com/repos/numaxlab/testa/zipball/28bfb8270069189b13527ac9385b7c8774c650c4",
+                "reference": "28bfb8270069189b13527ac9385b7c8774c650c4",
                 "shasum": ""
             },
             "require": {
@@ -5836,9 +5836,9 @@
             ],
             "support": {
                 "issues": "https://github.com/numaxlab/testa/issues",
-                "source": "https://github.com/numaxlab/testa/tree/1.0.0-beta.7"
+                "source": "https://github.com/numaxlab/testa/tree/1.0.0-beta.8"
             },
-            "time": "2025-12-10T13:15:23+00:00"
+            "time": "2025-12-18T10:00:19+00:00"
         },
         {
             "name": "nunomaduro/termwind",
